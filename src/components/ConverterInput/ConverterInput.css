@@ -1,0 +1,40 @@
+input {
+    outline: none;
+    width: 200px;
+    height: 26px;
+	font-size: 16px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #7E74F1;
+    border-right: 1px solid #979da1;
+	background: #F5F3FE;
+	border-radius: 6px 0px 0px 6px;
+    color: #232E35;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+input:disabled {
+    border: 1px solid #979da1;
+    background: #e4e4e5;
+}
+
+select {
+    border: 1px solid #7E74F1;
+	background: #F5F3FE;
+    border-left: none;
+    outline: none;
+    padding-left: 6px;
+    cursor: pointer;
+	border-radius: 0px 6px 6px 0px;
+}
+
+.mainInput {
+    display: flex;
+}
